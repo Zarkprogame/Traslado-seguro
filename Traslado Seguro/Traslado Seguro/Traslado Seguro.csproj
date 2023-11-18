@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Traslado_Seguro</RootNamespace>
     <UserSecretsId>9d9c820d-409c-4493-8fcd-eeafcabd636d</UserSecretsId>

@@ -1,0 +1,40 @@
+﻿@page
+@model Traslado_Seguro.Pages.Clientes.IndexModel
+@{
+	ViewData["Title"] = "Index Clientes";
+}
+
+<h1>Index Clientes</h1>
+<p>
+	<a asp-page="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Clientes.FirstOrDefault().Id)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Clientes.FirstOrDefault().Name)
+			</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.Clientes)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Id)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Name)
+				</td>
+				<td>
+					<a asp-page="./Edit" asp-route-id="@item.Id " class="btn btn-warning">Edit</a>
+					<a asp-page="./Delete" asp-route-id="@item.Id " class="btn btn-danger">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
