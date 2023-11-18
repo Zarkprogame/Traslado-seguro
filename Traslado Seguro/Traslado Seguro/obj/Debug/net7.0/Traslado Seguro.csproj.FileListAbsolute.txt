@@ -1,0 +1,44 @@
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.csproj.AssemblyReference.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.AssemblyInfoInputs.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.AssemblyInfo.cs
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.csproj.CoreCompileInputs.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.RazorAssemblyInfo.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.RazorAssemblyInfo.cs
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\appsettings.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.staticwebassets.runtime.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.exe
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.deps.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.runtimeconfig.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Traslado Seguro.pdb
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\Remotion.Linq.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\System.Interactive.Async.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\bin\Debug\net7.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets\msbuild.Traslado Seguro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets\msbuild.build.Traslado Seguro.props
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Traslado Seguro.props
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Traslado Seguro.props
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\scopedcss\bundle\Traslado Seguro.styles.css
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\scopedcss\projectbundle\Traslado Seguro.bundle.scp.css
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.csproj.CopyComplete
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\refint\Traslado Seguro.dll
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.pdb
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\Traslado Seguro.genruntimeconfig.cache
+C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro\obj\Debug\net7.0\ref\Traslado Seguro.dll
