@@ -1,0 +1,44 @@
+﻿@page
+@model Traslado_Seguro.Pages.ServicioTransporte.DeleteModel
+@{
+	ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+<h3>Are you sure you want to Delete this?</h3>
+<div>
+	<h4>Service</h4>
+	<hr />
+	<dl class="row">
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ServicioTransporte.Id)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ServicioTransporte.Id)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ServicioTransporte.Fecha)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ServicioTransporte.Fecha)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ServicioTransporte.NameConductor)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ServicioTransporte.NameConductor)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ServicioTransporte.Cliente)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ServicioTransporte.ClienteId)
+		</dd>
+	</dl>
+
+	<form method="post">
+		<input type="hidden" asp-for="ServicioTransporte.Id" />
+		<input type="submit" value="Delete" class="btn btn-danger" />
+		<a asp-page="./Index" class="btn btn-primary">Back to List</a>
+	</form>
+</div>
