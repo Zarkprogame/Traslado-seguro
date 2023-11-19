@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Zarkprogame\Documents\Traslado Seguro\Traslado Seguro\Traslado Seguro
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Zarkprogame/Documents/Traslado Seguro/Traslado Seguro/Traslado Seguro/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zarkprogame/Documents/Traslado Seguro/Traslado Seguro/Traslado Seguro/Pages/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
