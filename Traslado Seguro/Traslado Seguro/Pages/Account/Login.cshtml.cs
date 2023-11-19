@@ -11,7 +11,7 @@ namespace Traslado_Seguro.Pages.Account
     {
 		[BindProperty]
 		public Conductor Conductor { get; set; }
-		public string Name = "", Email = "", Password = "";
+		public string Email = "", Password = "";
 
 		public async Task<IActionResult> OnPostAsync()
 		{
@@ -21,22 +21,21 @@ namespace Traslado_Seguro.Pages.Account
 			{
 				connection.Open();
 
-				using (SqlCommand command = new SqlCommand("SELECT Name, Email, Password FROM TrasladoSeguroDB.dbo.Conductor WHERE Email = '" + Conductor.Email + "'; ", connection))
+				using (SqlCommand command = new SqlCommand("SELECT Email, Password FROM TrasladoSeguroDB.dbo.Conductores WHERE Email = '" + Conductor.Email + "'; ", connection))
 				{
 					using (SqlDataReader reader = command.ExecuteReader())
 					{
 						while (reader.Read())
 						{
-							Name = reader.GetString(0);
-							Email = reader.GetString(1);
-							Password = reader.GetString(2);
+							Email = reader.GetString(0);
+							Password = reader.GetString(1);
 						}
 					}
 				}
 				if (Conductor.Email == Email && Conductor.Password == Password)
 				{
 					var claims = new List<Claim> {
-						new Claim(ClaimTypes.Name, Name),
+						new Claim(ClaimTypes.Name, "Dear"),
 						new Claim(ClaimTypes.Email, Conductor.Email),
 					};
 					var identity = new ClaimsIdentity(claims, "MyCookieAuth");
