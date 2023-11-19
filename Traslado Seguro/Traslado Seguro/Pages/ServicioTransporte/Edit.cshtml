@@ -1,16 +1,19 @@
 ﻿@page
-@model Traslado_Seguro.Pages.ServicioTransporte.CreateModel
+@model Traslado_Seguro.Pages.ServicioTransporte.EditModel
 @{
-	ViewData["Title"] = "Create";
+	ViewData["Title"] = "Edit";
 }
 
-<h1>Create</h1>
+<h1>Edit</h1>
 
 <h4>Service</h4>
-<hr />
+
+<hr/>
+
 <div class="row">
 	<div class="col-md-4">
 		<form method="post">
+			<input type="hidden" asp-for="service.ServicioTransporte.Id">
 			<div class="form-group">
 				<label asp-for="service.ServicioTransporte.Fecha" class="form-label"></label>
 				<input asp-for="service.ServicioTransporte.Fecha" class="form-control" />
@@ -29,10 +32,10 @@
 				</select>
 				<span asp-validation-for="service.ServicioTransporte.Cliente" class="text-danger"></span>
 			</div>
-			<div />
-			<div class="form-group mt-3">
-				<input type="submit" value="Create" class="btn btn-success" />
-				<a asp-page="Index" class="btn btn-primary">Back to List</a>
+			<br>
+			<div class="form-group">
+				<input type="submit" value="Save" class="btn btn-success" />
+				<a asp-page="./Index" class="btn btn-primary">Back to List</a>
 			</div>
 		</form>
 	</div>
