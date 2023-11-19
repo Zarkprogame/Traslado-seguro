@@ -1,0 +1,44 @@
+﻿@page
+@model Traslado_Seguro.Pages.ServicioTransporte.CreateModel
+@{
+	ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Service</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form method="post">
+			<div class="form-group">
+				<label asp-for="service.ServicioTransporte.Fecha" class="form-label"></label>
+				<input asp-for="service.ServicioTransporte.Fecha" class="form-control" placeholder="" />
+				<span asp-validation-for="service.ServicioTransporte.Fecha" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="service.ServicioTransporte.NameConductor" class="form-label"></label>
+				<input asp-for="service.ServicioTransporte.NameConductor" class="form-control" placeholder="Price" />
+				<span asp-validation-for="service.ServicioTransporte.NameConductor" class="text-danger"></span>
+			</div>
+			<div class="mb-3">
+				<label asp-for="service.ServicioTransporte.Cliente" class="form-label"></label>
+				<select asp-for="service.ServicioTransporte.ClienteId"
+						asp-items="@(new SelectList(Model.service.ClientList, "Id", "Name"))"
+						class="form-control">
+				</select>
+				<span asp-validation-for="service.ServicioTransporte.Cliente" class="text-danger"></span>
+			<div />
+			<div class="form-group mt-3">
+				<input type="submit" value="Create" class="btn btn-success" />
+				<a asp-page="Index" class="btn btn-primary">Back to List</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
