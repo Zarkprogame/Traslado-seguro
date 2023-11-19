@@ -1,0 +1,42 @@
+﻿@page
+@model Traslado_Seguro.Pages.Register.CreateModel
+@{
+	ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Conductor</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form method="post">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="Conductor.Name" class="control-label"></label>
+				<input asp-for="Conductor.Name" class="form-control" />
+				<span asp-validation-for="Conductor.Name" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Conductor.Email" class="control-label"></label>
+				<input asp-for="Conductor.Email" class="form-control" />
+				<span asp-validation-for="Conductor.Email" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Conductor.Password" class="control-label"></label>
+				<input asp-for="Conductor.Password" type="password" class="form-control" />
+				<span asp-validation-for="Conductor.Password" class="text-danger"></span>
+			</div>
+			<div class="form-group mt-3">
+				<input type="submit" value="Create" class="btn btn-success" />
+				<a asp-page="/Account/Login" class="btn btn-primary">Back to Login</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
